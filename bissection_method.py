@@ -12,9 +12,9 @@ import numpy as np
 import math
 
 def f(x):
-    return math.sin(x) - math.cos(x)
+    return math.sin(x) - math.cos(x) #o polinomio deve ser modificado aqui para cada caso
 
-def bissec(f,m,M,acu,max):
+def bissec(f,m,M,acu,max): #implementando o metodo de bissecção
 
   contador = 0;
 
@@ -30,7 +30,6 @@ def bissec(f,m,M,acu,max):
     elif(f(alpha)*f(m) <= 0):
       M = alpha
 
-    results = {'m':m,'M':M,'alpha':alpha,'f(alpha)':f(alpha)}
     contador+=1
     valor_da_funcao = f(alpha)
 
