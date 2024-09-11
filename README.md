@@ -1,5 +1,5 @@
 # MCTB009-17
-Repor for Numerical Methods class @ Universidade Federal do ABC (course teached by professor Andre Pierro Camargo).
+Repo for Numerical Methods class @ Universidade Federal do ABC (course teached by professor Andre Pierro Camargo).
 
 Group formed by: João Garrido, Gabriel Oliveira e Victor Ferreira.
 
